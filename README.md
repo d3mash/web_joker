@@ -1,24 +1,15 @@
-# README
+# Joker game web form
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a web-interface for keeping track of the score for the Joker card game.
+Rules of the game can be found on [Wikipedia](https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80_(%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0)
 
-Things you may want to cover:
+## Setup for development:
 
-* Ruby version
+```
+git clone git@github.com:d3mash/web_joker.git
+cd web_joker
+bundle
+```
 
-* System dependencies
+That's it!
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
