@@ -30,6 +30,10 @@ jobs:
       run: bundle install
     - name: Install packages
       run: yarn install --pure-lockfile
+    - name: Lint
+      run: |
+        bundle exec reek app spec lib
+        bundle exec rubocop app spec lib
     - name: Run tests
       run: |
         bundle exec rails db:migrate RAILS_ENV=development

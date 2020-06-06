@@ -13,6 +13,7 @@ AllCops:
     - '**/*.cap'
     - '**/*.gemspec'
   Exclude:
+    - 'node_modules/**/*'
     - 'vendor/**/*'
     - 'db/schema.rb'
     - 'db/migrate/*.rb'
