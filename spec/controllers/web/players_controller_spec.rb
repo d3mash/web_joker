@@ -4,7 +4,7 @@ RSpec.describe Web::PlayersController, type: :controller do
   describe 'index' do
     subject(:get_index) { get :index }
 
-    let!(:player) { create(:player) }
+    before { create(:player) }
 
     it 'renders index page' do
       expect(get_index).to render_template(:index)

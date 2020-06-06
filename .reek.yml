@@ -1,0 +1,38 @@
+---
+detectors:
+  IrresponsibleModule:
+    enabled: false
+
+  NilCheck:
+    enabled: false
+
+  UtilityFunction:
+    public_methods_only: true
+
+  DuplicateMethodCall:
+    allow_calls:
+      - 'Rails.env'
+
+directories:
+  'app/helpers':
+    UtilityFunction:
+      enabled: false
+    FeatureEnvy:
+      enabled: false
+
+  'app/controllers':
+    InstanceVariableAssumption:
+      enabled: false
+  'app/mailers':
+    InstanceVariableAssumption:
+      enabled: false
+
+  'app/validators':
+    UtilityFunction:
+      enabled: false
+
+  'spec/support':
+    UtilityFunction:
+      enabled: false
+exclude_paths:
+  - db/migrate
