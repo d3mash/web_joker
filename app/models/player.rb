@@ -2,5 +2,5 @@
 
 class Player < ApplicationRecord
   validates :name, presence: true
-  has_many :games, through: :player_game
+  has_many :games, through: :player_games
 end
