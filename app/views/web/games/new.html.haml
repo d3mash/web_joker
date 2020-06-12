@@ -1,0 +1,4 @@
+= simple_form_for(@game, action: 'create') do |form|
+  = form.input :players_count, collection: [3, 4]
+  = form.association :players
+  = form.submit

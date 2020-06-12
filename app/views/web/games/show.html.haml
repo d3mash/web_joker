@@ -1,0 +1,10 @@
+%h1
+  Joker game at
+  = @game.created_at.strftime('%D')
+
+%h2
+  Players
+  - @game.players.each do |player|
+    %h3
+      = player.name
+
