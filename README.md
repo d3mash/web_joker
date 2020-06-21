@@ -1,3 +1,7 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/1b9784f8469b20c605a9/maintainability)](https://codeclimate.com/github/d3mash/web_joker/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1b9784f8469b20c605a9/test_coverage)](https://codeclimate.com/github/d3mash/web_joker/test_coverage)
+
 # Joker game web form
 
 This project is a web-interface for keeping track of the score for the Joker card game.
